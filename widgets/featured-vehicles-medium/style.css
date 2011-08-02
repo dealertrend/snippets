@@ -1,33 +1,32 @@
-.vms-widget.medium {
+/* ## Featured Vehicles START ## */
+.vms-widget.medium  {
   font-size:12px;
-  padding:0 !important;
-  -webkit-border-radius:0 !important;
-  -moz-border-radius:0 !important;
-  border-radius:0 !important;
+  padding:0;
+  border:0;
   float:left;
   margin:0 5px;
-  background:url('PATHTOBACKGROUND') no-repeat scroll 0 0 transparent;
+  background-image:url('/wp-content/uploads/2011/08/background-featured-vehicle-470x300.png');
   overflow:hidden;
   height:300px;
-  width:470px !important;
+  width:470px;
 }
-.vms-widget .vms-widget-content {
-  background:none !important;
-  border:none !important;
+.vms-widget.medium .ui-tabs-nav { display:none; }
+.vms-widget.medium .vms-widget-content {
+  background:transparent;
+  border:0;
 }
-.vms-widget .vms-widget-content-wrapper {
+.vms-widget.medium .vms-widget-content-wrapper {
   height:256px;
   margin-left:7px;
   margin-top:32px;
   overflow-x:hidden;
   overflow-y:auto;
-  padding:0 !important;
-  width:453px !important;
+  padding:0;
+  width:453px;
 }
-.vms-widget-content .ui-tabs-nav { display:none !important; }
-.vms-widget-item {
-  background:none repeat scroll 0 0 white;
-  border:1px solid #FFFFFF;
+.vms-widget.medium .vms-widget-item {
+  background:white;
+  border:0;
   float:left;
   font-size:12px;
   height:85px;
@@ -37,31 +36,32 @@
   width:auto;
   overflow:hidden;
 }
-.vms-widget-item a {
+.vms-widget.medium .vms-widget-item:hover { background-color:#e1e1e1; }
+.vms-widget.medium .vms-widget-item a {
   color:#102C54;
   display:block;
   font-weight:bold;
   height:76px;
   width: 213px;
 }
-.vms-widget-item img {
+.vms-widget.medium .vms-widget-item img {
   display:block;
   float:left;
   height:85px;
   width:109px;
 }
-.vms-widget-item .vms-widget-main-line {
+.vms-widget.medium .vms-widget-item .vms-widget-main-line {
   display:block;
   float:right;
-  clear:none !important;
-  font-weight:500 !important;
-  width:100px !important;
+  clear:none;
+  font-weight:500;
+  width:100px;
 }
-.vms-widget-main-line div {
+.vms-widget.medium .vms-widget-main-line div {
   font-size:12px;
   display:inline-block;
 }
-.vms-widget-item .vms-widget-price {
+.vms-widget.medium .vms-widget-item .vms-widget-price {
   clear:none;
   float:right;
   text-align:center;
@@ -69,15 +69,16 @@
   display:block;
   font-size:11px;
 }
-.vms-widget-strike-through.inventory-widget-asking-price { color: #000000; }
-.vms-widget-price {
+.vms-widget.medium .vms-widget-strike-through.inventory-widget-asking-price { color: #000000; }
+.vms-widget.medium .vms-widget-price {
   display:block;
   float:left;
   font-size:11px;
   width:96px;
 }
-.vms-widget-sale-price {
+.vms-widget.medium .vms-widget-sale-price {
   font-size:14px;
   color:red;
 }
-.vms-sale-expires { display:none; }
+.vms-widget.medium .vms-sale-expires { display:none; }
+/* ## Featured Vehicles STOP ## */
