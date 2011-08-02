@@ -81,6 +81,7 @@
   border:none;
   text-indent:-9999px;
   background-repeat:no-repeat;
+  margin-top:50px;
 }
 .vrs-widget.large .carousel-control.previous.carousel-previous {
   background-image: url('/wp-content/uploads/2011/08/button-left-arrow-25x25.png.png');
@@ -92,12 +93,10 @@
 }
 .vrs-widget.large .carousel-control.previous {
   float:left;
-  margin:3% 0;
   width:25px;
   height:28px;
 }
 .vrs-widget.large .carousel-control.next {
-  margin:3% 0;
   width:27px;
   height:28px;
   padding:0;
