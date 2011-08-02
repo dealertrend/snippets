@@ -1,0 +1,108 @@
+/* NOTE: This needs the JPG to PNG script in order to have transparent thumbnails. */
+/* ## Featured Vehicles START ## */
+.vrs-widget.large {
+  background-image:url('/wp-content/uploads/2011/08/background-slider-container-950x144.png');
+  background-color:transparent;
+  margin:12px 5px 0px;
+  width: 950px;
+}
+.vrs-widget.large .vrs-widget-item-wrapper {
+  width:945px;
+  height:140px;
+}
+.vrs-widget.large .carousel { overflow:hidden; }
+.vrs-widget.large .vrs-widget-content, 
+.vrs-widget.large .vrs-widget-content .ui-widget-content,
+.vrs-widget.large .vrs-widget-content .ui-tabs-nav { background:transparent; }
+.vrs-widget.large .vrs-widget-content .ui-corner-top,
+.vrs-widget.large .vrs-widget-content .ui-widget-content { border:0; }
+.vrs-widget.large .vrs-widget-content .ui-tabs .ui-tabs-nav li a {
+  display:block;
+  float:none;
+  font-size:16px;
+  font-weight:bold;
+  text-align:center;
+  text-decoration:none;
+  width:180px;
+  padding:3px 0;
+  color:#000;
+}
+.vrs-widget.large .vrs-widget-content .ui-tabs li {
+  background-color:transparent;
+  background-image:url('/wp-content/uploads/2011/08/chrome-tab-183x26.png');
+  background-repeat:no-repeat;
+
+}
+.vrs-widget.large .vrs-widget-content .ui-tabs .ui-tabs-panel,
+.vrs-widget.large .ui-tabs .ui-tabs-nav,
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+  padding:0;
+  margin:0;
+  border:0;
+}
+.vrs-widget.large .ui-tabs .ui-tabs-nav li { margin-right:5px; }
+.vrs-widget.large .ui-state-default,
+.vrs-widget.large .ui-state-active { border:0; margin:0; padding:0; }
+.vrs-widget.large .ui-tabs .ui-tabs-nav { margin-left:7px; }
+.vrs-widget.large  .carousel-wrap {
+  float:left;
+  margin:14px 5px 0px;
+  width:840px !important;
+  height:95px !important;
+}
+.vrs-widget.large .carousel .vrs-widget-item {
+  margin:0;
+  padding:0;
+  width:210px;
+}
+.vrs-widget.large .vrs-widget.items { height:75%;}
+.vrs-widget.large .vrs-widget-thumbnail img {
+  height:96px;
+  margin-top:-9px;
+  width:auto;
+}
+.vrs-widget.large .vrs-widget-thumbnail {
+  height:80px;
+  margin:0 0 0 39px;
+  position:relative;
+  z-index:1;
+}
+.vrs-widget.large .vrs-widget-main-line {
+  color:white;
+  margin-top:-9px;
+  text-align:center;
+  margin-left:35px;
+  position:relative;
+  z-index:2;
+}
+.vrs-widget.large .carousel-control.previous.carousel-previous,
+.vrs-widget.large .carousel-control.next.carousel-next {
+  background-color:transparent;
+  border:none;
+  text-indent:-9999px;
+  background-repeat:no-repeat;
+}
+.vrs-widget.large .carousel-control.previous.carousel-previous {
+  background-image: url('/wp-content/uploads/2011/08/button-left-arrow-25x25.png.png');
+  margin-left:8px
+}
+.vrs-widget.large .carousel-control.next.carousel-next {
+  background-image: url('/wp-content/uploads/2011/08/button-right-arrow-25x25.png');
+  margin-right:8px
+}
+.vrs-widget.large .carousel-control.previous {
+  float:left;
+  margin:3% 0;
+  width:25px;
+  height:28px;
+}
+.vrs-widget.large .carousel-control.next {
+  margin:3% 0;
+  width:27px;
+  height:28px;
+  padding:0;
+  position:absolute;
+  right:-4px;
+}
+.vrs-widget.large  .carousel-control.previous, .vrs-widget .carousel-control.next { margin-top:61px; }
+/* ## Featured Vehicles STOP ## */
